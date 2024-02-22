@@ -4,12 +4,14 @@ local options = {
 
 	formatters_by_ft = {
 		lua = { "stylua" },
-
+    typescript = { "prettier" },
 		javascript = { "prettier" },
 		css = { "prettier" },
+    scss = { "prettier" },
 		html = { "prettier" },
-
 		sh = { "shfmt" },
+    md = { "markdownlint" },
+    php = { "php_cs_fixer" }
 	},
 
   -- adding same formatter for multiple filetypes can look too much work for some

@@ -23,6 +23,8 @@ M.general = {
       end,
       "close symbols"
     },
+    ["<C-w>"] = { "<cmd> bd <CR>", "close file" },
+    ["<leader>gg"] = { "<cmd> !golines . -w <CR>", "run golines" },
     ["<leader>rm"] = { ":call delete(expand('%')) | bdelete!", "delete the current file"},
   },
   v = {
