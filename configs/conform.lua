@@ -11,7 +11,10 @@ local options = {
 		html = { "prettier" },
 		sh = { "shfmt" },
     md = { "markdownlint" },
-    php = { "php_cs_fixer" }
+    php = { "php_cs_fixer" },
+    frag = { "glsl_analyzer" },
+    vert = { "glsl_analyser" },
+    geom = { "glsl_analyser" }
 	},
 
   -- adding same formatter for multiple filetypes can look too much work for some
