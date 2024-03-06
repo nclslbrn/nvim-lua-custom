@@ -34,6 +34,7 @@ M.mason = {
     "deno",
     "prettier",
     "glsl_analyzer",
+    "intelephense",
 
     -- c/cpp stuff
     "clangd",
